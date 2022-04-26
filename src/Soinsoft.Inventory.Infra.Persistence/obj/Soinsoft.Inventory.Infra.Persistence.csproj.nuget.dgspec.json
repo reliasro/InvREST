@@ -4,14 +4,14 @@
     "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Infra.Persistence\\Soinsoft.Inventory.Infra.Persistence.csproj": {}
   },
   "projects": {
-    "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
+    "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj",
+        "projectUniqueName": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj",
         "projectName": "Soinsoft.Inventory.Domain.Contracts",
-        "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj",
+        "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj",
         "packagesPath": "C:\\Users\\reliasr\\.nuget\\packages\\",
-        "outputPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\obj\\",
+        "outputPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -158,8 +158,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
-                "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
+              "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
+                "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
               },
               "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj": {
                 "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj"

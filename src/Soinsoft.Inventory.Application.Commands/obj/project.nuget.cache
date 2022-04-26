@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "y4gXl+17QhfGK3ZZs8xiWFRTxJsfy6FuxYml3H3zXMuAOM0pKbzluwfp30+wW1qTZipquBBLQYv+5f2n3qsdcw==",
+  "dgSpecHash": "z4Gj8zmdnNUrofRpJ9buUKke2OdLSeDvtThbhSJmEN56FWyIHBpdWeov+iBjkUmIhT35KCSOIx8+/jjleUSBRw==",
   "success": true,
   "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\Soinsoft.Inventory.Application.Commands.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\reliasr\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

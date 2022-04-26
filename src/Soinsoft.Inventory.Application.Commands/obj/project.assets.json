@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "MediatR/10.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+        }
+      },
       "Soinsoft.Inventory.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -38,6 +59,36 @@
     }
   },
   "libraries": {
+    "MediatR/10.0.1": {
+      "sha512": "vnjbk4giDJzJelh34Ygt0eorApCKrRFB7j0pauFPY1oxfO3cEZ7FugBrIOjCM76SDGTOmPFfbfmVnz1t3iFrGA==",
+      "type": "package",
+      "path": "mediatr/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.10.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
     "Soinsoft.Inventory.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../Soinsoft.Inventory.Application.Contracts/Soinsoft.Inventory.Application.Contracts.csproj",
@@ -56,6 +107,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MediatR >= 10.0.1",
       "Soinsoft.Inventory.Application.Contracts >= 1.0.0",
       "Soinsoft.Inventory.Domain.Contracts >= 1.0.0",
       "Soinsoft.Inventory.Domain.Model >= 1.0.0"
@@ -96,11 +148,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {
-              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj"
+            "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {
+              "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj"
             },
-            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
-              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
+            "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
+              "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
             },
             "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj": {
               "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj"
@@ -117,6 +169,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[10.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

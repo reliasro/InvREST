@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Soinsoft.Inventory.Domain.Contracts;
 using Soinsoft.Inventory.Domain.Model;
+using MediatR;
+using Soinsoft.Inventory.Application.Commands.Product.Commands;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers;
 
@@ -15,16 +17,19 @@ public class WeatherForecastController : ControllerBase
 
     private readonly ILogger<WeatherForecastController> _logger;
     private readonly IRepository<Product> _productRepo;
+    private readonly IMediator _mediator;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepository<Product> productRepo)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepository<Product> productRepo, IMediator mediator)
     {
         _logger = logger;
         _productRepo = productRepo;
+        _mediator = mediator;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
+        _mediator.Send(new AddProductCmd());
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),
