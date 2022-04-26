@@ -8,6 +8,8 @@ namespace Soinsoft.Inventory.Domain.Model
     public class Transaction
     {
         public int ProductID { get; set; }
+        public string ProductDescription { get; set; }
+        public Decimal Price { get; set; }
         public int Id { get; set; }
         public int InitialExistence { get; set; }
         public int FinalExistence { get; set; }
