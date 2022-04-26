@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "BSxIyKPxfJ2yG51xdtNCybsi9m7rZCr6h3iBHYbXppOo9lQPMvFJzMM+nA27B7Jl2slvtpwpxTGZX6+tCwUXng==",
+  "success": true,
+  "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebAPI\\Soinsoft.Inventory.Presentation.WebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

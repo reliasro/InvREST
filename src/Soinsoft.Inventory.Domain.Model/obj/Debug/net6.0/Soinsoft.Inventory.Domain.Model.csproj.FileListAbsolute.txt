@@ -1,0 +1,12 @@
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\bin\Debug\net6.0\Soinsoft.Inventory.Domain.Model.deps.json
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\bin\Debug\net6.0\Soinsoft.Inventory.Domain.Model.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\bin\Debug\net6.0\Soinsoft.Inventory.Domain.Model.pdb
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.csproj.AssemblyReference.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.GeneratedMSBuildEditorConfig.editorconfig
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.AssemblyInfoInputs.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.AssemblyInfo.cs
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.csproj.CoreCompileInputs.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\refint\Soinsoft.Inventory.Domain.Model.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\Soinsoft.Inventory.Domain.Model.pdb
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Domain.Model\obj\Debug\net6.0\ref\Soinsoft.Inventory.Domain.Model.dll

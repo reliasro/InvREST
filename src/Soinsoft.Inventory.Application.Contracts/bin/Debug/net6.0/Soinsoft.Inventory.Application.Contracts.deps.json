@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Soinsoft.Inventory.Application.Contracts/1.0.0": {
+        "runtime": {
+          "Soinsoft.Inventory.Application.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Soinsoft.Inventory.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

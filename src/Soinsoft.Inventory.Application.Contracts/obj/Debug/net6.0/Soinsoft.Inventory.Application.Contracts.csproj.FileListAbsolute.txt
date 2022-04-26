@@ -1,0 +1,12 @@
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\bin\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.deps.json
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\bin\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\bin\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.pdb
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.csproj.AssemblyReference.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.AssemblyInfoInputs.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.AssemblyInfo.cs
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\refint\Soinsoft.Inventory.Application.Contracts.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\Soinsoft.Inventory.Application.Contracts.pdb
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Application.Contracts\obj\Debug\net6.0\ref\Soinsoft.Inventory.Application.Contracts.dll

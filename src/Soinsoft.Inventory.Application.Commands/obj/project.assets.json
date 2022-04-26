@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Soinsoft.Inventory.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Soinsoft.Inventory.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Soinsoft.Inventory.Application.Contracts.dll": {}
+        }
+      },
+      "Soinsoft.Inventory.Domain.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Soinsoft.Inventory.Domain.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Soinsoft.Inventory.Domain.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Soinsoft.Inventory.Domain.Contracts.dll": {}
+        }
+      },
+      "Soinsoft.Inventory.Domain.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Soinsoft.Inventory.Domain.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Soinsoft.Inventory.Domain.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Soinsoft.Inventory.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Soinsoft.Inventory.Application.Contracts/Soinsoft.Inventory.Application.Contracts.csproj",
+      "msbuildProject": "../Soinsoft.Inventory.Application.Contracts/Soinsoft.Inventory.Application.Contracts.csproj"
+    },
+    "Soinsoft.Inventory.Domain.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Soinsoft.Inventory.Domain.Contracts/Soinsoft.Inventory.Domain.Contracts.csproj",
+      "msbuildProject": "../Soinsoft.Inventory.Domain.Contracts/Soinsoft.Inventory.Domain.Contracts.csproj"
+    },
+    "Soinsoft.Inventory.Domain.Model/1.0.0": {
+      "type": "project",
+      "path": "../Soinsoft.Inventory.Domain.Model/Soinsoft.Inventory.Domain.Model.csproj",
+      "msbuildProject": "../Soinsoft.Inventory.Domain.Model/Soinsoft.Inventory.Domain.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Soinsoft.Inventory.Application.Contracts >= 1.0.0",
+      "Soinsoft.Inventory.Domain.Contracts >= 1.0.0",
+      "Soinsoft.Inventory.Domain.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\reliasr\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\Soinsoft.Inventory.Application.Commands.csproj",
+      "projectName": "Soinsoft.Inventory.Application.Commands",
+      "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\Soinsoft.Inventory.Application.Commands.csproj",
+      "packagesPath": "C:\\Users\\reliasr\\.nuget\\packages\\",
+      "outputPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\reliasr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {
+              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj"
+            },
+            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
+              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
+            },
+            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj": {
+              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

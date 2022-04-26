@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Soinsoft.Inventory.Domain.Model\Soinsoft.Inventory.Domain.Model.csproj" />
+    <ProjectReference Include="..\Soinsoft.Inventory.Domain.Contracts\Soinsoft.Inventory.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\Soinsoft.Inventory.Application.Contracts\Soinsoft.Inventory.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

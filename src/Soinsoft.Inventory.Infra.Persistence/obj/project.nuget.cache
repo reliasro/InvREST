@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "/3VSbm6mqVpNI5H0IB5c7SPRYDyWTtgeozPZw3SH/R2eXcGBNFyZeyciVuC6rR17O8Ph6nIKzKfoVjc7RnORKA==",
+  "success": true,
+  "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Infra.Persistence\\Soinsoft.Inventory.Infra.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-preview.3.22175.4\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.3.22175.4.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

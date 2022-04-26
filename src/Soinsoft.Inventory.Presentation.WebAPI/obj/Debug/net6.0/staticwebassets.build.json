@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "8Ko2nRnVfzJBJC1G+FjW3EbGDUEytHMlbk9Ns1vrVds=",
+  "Source": "Soinsoft.Inventory.Presentation.WebAPI",
+  "BasePath": "_content/Soinsoft.Inventory.Presentation.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
