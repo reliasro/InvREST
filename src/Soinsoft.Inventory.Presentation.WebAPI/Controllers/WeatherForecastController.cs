@@ -29,7 +29,9 @@ public class WeatherForecastController : ControllerBase
     [HttpGet(Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
     {
-        _mediator.Send(new AddProductCmd());
+        AddProductCmd cmd = new AddProductCmd();
+        var result = _mediator.Send(cmd);
+
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
             Date = DateTime.Now.AddDays(index),
