@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0WdfJ2+dHs/gxEMnuFmiR8QvvnhCrKP5F8nO5qbM4+/uYbC7GyrSJpN19weNzhPyvPr7CnZ649Gw0I34sWrNw==",
+  "dgSpecHash": "p66xQXkSm3DPPq8FwReRNt77ufY04lAHK0UkVjC4QnMATdvE4xBLmVbYaY2AzuKk2QOCJQsODMJHbMBQztZ4ww==",
   "success": true,
-  "projectFilePath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
+  "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1275,8 +1275,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
-              "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
+            "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj": {
+              "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Contracts\\Soinsoft.Inventory.Domain.Contracts.csproj"
             },
             "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj": {
               "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Domain.Model\\Soinsoft.Inventory.Domain.Model.csproj"

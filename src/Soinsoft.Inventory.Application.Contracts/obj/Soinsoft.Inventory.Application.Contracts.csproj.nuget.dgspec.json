@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {}
+    "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {}
   },
   "projects": {
-    "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {
+    "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
+        "projectUniqueName": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
         "projectName": "Soinsoft.Inventory.Application.Contracts",
-        "projectPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
+        "projectPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\Soinsoft.Inventory.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\reliasr\\.nuget\\packages\\",
-        "outputPath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\obj\\",
+        "outputPath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

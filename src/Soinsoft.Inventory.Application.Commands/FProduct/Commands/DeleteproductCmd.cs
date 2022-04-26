@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace Soinsoft.Inventory.Application.Commands.Product.Commands
+namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
 {
-    public class DeleteProductHandler: IRequest<int>
+    public class DeleteproductCmd: IRequest<int>
     {
         
     }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Soinsoft.Inventory.Domain.Contracts
 {
-    public interface IRepository <T>
+    public interface IRepository <T> where T: class
     {
      
        Task<IEnumerable<T>> GetAll(); 
@@ -13,7 +13,7 @@ namespace Soinsoft.Inventory.Domain.Contracts
        Task Delete(int id);
        Task Update(T entity);
        Task Create(T entity);
-       Task SaveChanges();
+       Task<int> SaveChanges();
 
     }
 }

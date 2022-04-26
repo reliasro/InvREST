@@ -2,43 +2,46 @@
 using Soinsoft.Inventory.Infra.Persistence.Database;
 
 namespace Soinsoft.Inventory.Infra.Persistence;
-public class Repository<T> : IRepository<T>
+public class Repository<T> : IRepository<T> where T:class
 {
     private readonly DbContextInventory _context;
     public Repository(DbContextInventory context){
-            _context = context;
+          _context = context;
     } 
 
     public async Task Create(T entity)
     {
-         await Task.FromCanceled(new CancellationToken());
+        await _context.Set<T>().AddAsync(entity);
     }
 
-    public async Task  Delete(int id)
+    public async Task Delete(int id)
     {
-         await Task.FromCanceled(new CancellationToken());
+         var item =await _context.Set<T>().FindAsync(id);
+         if (item==null) await Task.FromResult(-1);
+         else _context.Remove(item);
     }
 
     public async Task<T> Get(int id)
     {
-        throw new NotImplementedException();
-       //await Task<T>.FromCanceled(new CancellationToken());
+         var item= await _context.Set<T>().FindAsync(id);
+         if (item==null) await Task.FromResult(-1);
+         return item;
     }
 
     public async Task<IEnumerable<T>> GetAll()
     {
-        throw new NotImplementedException();
-        //await Task.FromCanceled(new CancellationToken());
+        var result= _context.Set<T>().AsEnumerable(); 
+        return await Task.FromResult(result);
     }
 
-    public Task SaveChanges()
+    public async Task<int> SaveChanges()
     {
-        throw new NotImplementedException();
+       return await _context.SaveChangesAsync();
     }
 
-    public async Task Update(T entity)
+    public Task Update(T entity)
     {
-         await Task.FromCanceled(new CancellationToken());
+         return Task.FromResult(_context.Set<T>().Attach(entity));
     }
 
 }
