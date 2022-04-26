@@ -15,3 +15,5 @@ F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\bin\Debug\net
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\bin\Debug\net6.0\Soinsoft.Inventory.Domain.Contracts.pdb
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\bin\Debug\net6.0\Soinsoft.Inventory.Domain.Model.pdb
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\obj\Debug\net6.0\Soinsoft.Inventory.Infra.Persistence.csproj.CopyComplete
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\bin\Debug\net6.0\Soinsoft.Inventory.Infra.Persistence.runtimeconfig.json
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Infra.Persistence\obj\Debug\net6.0\Soinsoft.Inventory.Infra.Persistence.genruntimeconfig.cache

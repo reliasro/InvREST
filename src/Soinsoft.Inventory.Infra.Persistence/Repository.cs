@@ -1,11 +1,14 @@
 ﻿using Soinsoft.Inventory.Domain.Contracts;
+using Soinsoft.Inventory.Infra.Persistence.Database;
 
 namespace Soinsoft.Inventory.Infra.Persistence;
 public class Repository<T> : IRepository<T>
 {
-   /* public Repository(DbContext context){
-           
-    } */
+    private readonly DbContextInventory _context;
+    public Repository(DbContextInventory context){
+            _context = context;
+    } 
+
     public async Task Create(T entity)
     {
          await Task.FromCanceled(new CancellationToken());
