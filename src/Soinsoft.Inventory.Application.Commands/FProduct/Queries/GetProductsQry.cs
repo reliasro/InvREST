@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using MediatR;
 using Soinsoft.Inventory.Application.Contracts.DTOs;
 
-namespace Soinsoft.Inventory.Application.Commands.Product.Queries
+namespace Soinsoft.Inventory.Application.Commands.FProduct.Queries
 {
     public class GetProductsQry: IRequest<IEnumerable<ProductDTO>> 
     {
