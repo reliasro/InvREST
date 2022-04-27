@@ -12,26 +12,16 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
     public class AddProductHandler : IRequestHandler<AddProductCmd, int>
     {
         private readonly IRepository<Product> _product;
-        private readonly MapperConfiguration _mapperconfig;
+        private readonly IMapper _mapper;
 
-        public AddProductHandler(IRepository<Product> product){
+        public AddProductHandler(IRepository<Product> product, IMapper mapper){
             _product = product;
-            _mapperconfig = new MapperConfiguration(opt=>opt.CreateMap<AddProductCmd, Product>());
-        }
+            _mapper=mapper;
+          }
 
         public async Task<int> Handle(AddProductCmd request, CancellationToken cancellationToken)
         {
-            var mapper = new Mapper(_mapperconfig);
-            Product prod = mapper.Map<AddProductCmd, Product>(request);
-
-          /*  Product p = new Product(){
-                Description=request.Description,
-                Maximun=request.Maximun,
-                Minimum=request.Minimum,
-                Price=request.Price,
-                Cost=request.Cost,
-                Unit=request.Unit
-             }; */
+            Product prod = _mapper.Map<Product>(request);
 
             await _product.Create(prod);
             return await _product.SaveChanges();

@@ -1,6 +1,7 @@
 using Soinsoft.Inventory.Infra.Persistence.Container;
 using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
 using MediatR;
+using AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddMediatR(typeof(AddProductCmd));
+builder.Services.AddMediatR(typeof(AddProductCmd)); //Para hacer mediator
+builder.Services.AddAutoMapper(typeof(AddProductCmd)); //Aqui tengo profiles registrados
 
 
 var app = builder.Build();

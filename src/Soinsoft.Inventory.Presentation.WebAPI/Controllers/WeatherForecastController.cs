@@ -3,6 +3,7 @@ using Soinsoft.Inventory.Domain.Contracts;
 using Soinsoft.Inventory.Domain.Model;
 using MediatR;
 using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
+using AutoMapper;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers;
 
@@ -16,13 +17,13 @@ public class WeatherForecastController : ControllerBase
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
-    private readonly IRepository<Product> _productRepo;
+    private readonly IMapper _mapper;
     private readonly IMediator _mediator;
 
-    public WeatherForecastController(ILogger<WeatherForecastController> logger, IRepository<Product> productRepo, IMediator mediator)
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, IMapper mapper, IMediator mediator)
     {
         _logger = logger;
-        _productRepo = productRepo;
+        _mapper = mapper;
         _mediator = mediator;
     }
 
@@ -30,11 +31,11 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         AddProductCmd cmd = new(){
-            Description="Televisor Samsung",
-            Maximun=36,
-            Minimum=10,
-            Price=85000,
-            Cost=3200,
+            Description="Celular Android",
+            Maximun=45,
+            Minimum=15,
+            Price=6500,
+            Cost=1500,
             Unit="Unit"
          };        
         var result = _mediator.Send(cmd);
