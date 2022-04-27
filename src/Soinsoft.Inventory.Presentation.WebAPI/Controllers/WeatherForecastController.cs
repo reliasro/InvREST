@@ -30,12 +30,12 @@ public class WeatherForecastController : ControllerBase
     public IEnumerable<WeatherForecast> Get()
     {
         AddProductCmd cmd = new(){
-            Description="Probando",
-            Maximun=100,
-            Minimum=25,
-            Price=2500,
-            Cost=1300,
-            Unit="Boxes"
+            Description="Televisor Samsung",
+            Maximun=36,
+            Minimum=10,
+            Price=85000,
+            Cost=3200,
+            Unit="Unit"
          };        
         var result = _mediator.Send(cmd);
 

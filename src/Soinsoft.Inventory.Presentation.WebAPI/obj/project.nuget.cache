@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "GC1n0/3sx1IG2SWZVnKMFJfLt34bn1R+/VB7t6jDjS8yMRjDx7wLutXqsvVDbA+CZ/XiFik0xAUfmM9OCNIi4w==",
+  "dgSpecHash": "z+qZ/yU1sqZ8ByYnSu3ocFqf+q3huXGxIJxFoR5tUAIwVs+RD6Vhfo7HUJyf9e0DsNGxGaO1AW1CYBTifGgS+Q==",
   "success": true,
   "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebAPI\\Soinsoft.Inventory.Presentation.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\reliasr\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.4\\microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.4\\microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.4\\microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",

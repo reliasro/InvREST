@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fkiTR2sjI0TySIkHs9biooG8frH6+sxqpgvvy8HjN5LBr3Zb9xPbUx3feug4vp/ZF2ij/d7Pti9tjgN++oiiow==",
+  "dgSpecHash": "NuKwap7PMegx4RdvHJSViMsK/wnTtZSU0Wj/YWtlo/yeEj/tAfktb+BgW3QkH2VkiE216twVyjjUzX3XWugTlA==",
   "success": true,
   "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\Soinsoft.Inventory.Application.Commands.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\reliasr\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
-    "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

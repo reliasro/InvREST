@@ -68,3 +68,4 @@ F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\n
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\MediatR.dll
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\MediatR.Contracts.dll
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\AutoMapper.dll
