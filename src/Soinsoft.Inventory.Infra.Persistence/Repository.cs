@@ -30,13 +30,14 @@ public class Repository<T> : IRepository<T> where T:class
 
     public async Task<IEnumerable<T>> GetAll()
     {
-        var result= _context.Set<T>().AsEnumerable(); 
+        var result= _context.Set<T>().ToList(); 
         return await Task.FromResult(result);
     }
 
     public async Task<int> SaveChanges()
     {
-       return await _context.SaveChangesAsync();
+       var id= await _context.SaveChangesAsync();
+       return id;
     }
 
     public Task Update(T entity)

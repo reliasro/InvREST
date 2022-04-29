@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
+using Soinsoft.Inventory.Application.Contracts.DTOs;
 using Soinsoft.Inventory.Domain.Model;
 
 namespace Soinsoft.Inventory.Application.Commands.Mappings
@@ -12,7 +13,7 @@ namespace Soinsoft.Inventory.Application.Commands.Mappings
     {
         public Profiles(){
             
-            CreateMap<DeleteproductCmd, Transaction>();
+            CreateMap<Product, ProductDTO>();
             CreateMap<AddProductCmd, Product>();
             CreateMap<EditProductCmd, MessageProcessingHandler>();
         }
