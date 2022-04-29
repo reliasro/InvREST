@@ -1,7 +1,8 @@
 using Soinsoft.Inventory.Infra.Persistence.Container;
 using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
+using Soinsoft.Inventory.Application.Commands.Validators;
 using MediatR;
-using AutoMapper;
+using FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +13,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(typeof(AddProductCmd)); //Para hacer mediator
-builder.Services.AddAutoMapper(typeof(AddProductCmd)); //Aqui tengo profiles registrados
-
+builder.Services.AddAutoMapper(typeof(AddProductCmd)); //Aqui tengo profiles de mapping registrados
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>)); //Registro el comportamiento de validaciones
+builder.Services.AddValidatorsFromAssembly(typeof(AddProductCmd).Assembly);
 
 var app = builder.Build();
 

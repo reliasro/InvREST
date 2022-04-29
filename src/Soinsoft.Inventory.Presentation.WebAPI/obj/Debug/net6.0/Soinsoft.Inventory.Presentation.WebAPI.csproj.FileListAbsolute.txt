@@ -70,3 +70,6 @@ F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\n
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\AutoMapper.dll
 F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\FluentValidation.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebAPI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

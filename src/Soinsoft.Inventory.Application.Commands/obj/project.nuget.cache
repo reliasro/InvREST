@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NuKwap7PMegx4RdvHJSViMsK/wnTtZSU0Wj/YWtlo/yeEj/tAfktb+BgW3QkH2VkiE216twVyjjUzX3XWugTlA==",
+  "dgSpecHash": "1XThZsHdGWyDmgY72YMN8qkVSwThuOCfbUNlD5seodL4vn6zaej4ew8W5ihS2pCaYHCB+NuiJdmLqChTe4W0xg==",
   "success": true,
   "projectFilePath": "F:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Application.Commands\\Soinsoft.Inventory.Application.Commands.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reliasr\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\reliasr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\reliasr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }
