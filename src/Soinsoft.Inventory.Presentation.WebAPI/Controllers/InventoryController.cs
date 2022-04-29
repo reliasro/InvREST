@@ -52,10 +52,8 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
                 return StatusCode(401,error.Message);                
             }
           
-
         }
 
-        
 
     }
 }
