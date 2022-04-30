@@ -16,6 +16,13 @@ builder.Services.AddMediatR(typeof(AddProductCmd)); //Para hacer mediator
 builder.Services.AddAutoMapper(typeof(AddProductCmd)); //Aqui tengo profiles de mapping registrados
 builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>)); //Registro el comportamiento de validaciones
 builder.Services.AddValidatorsFromAssembly(typeof(AddProductCmd).Assembly);
+builder.Services.AddCors(opt=>{
+
+   opt.AddPolicy("MyPolicy", p=> 
+    p.WithOrigins("https://myapp01.azurewebsites.com")
+    .AllowAnyHeader()
+    .AllowAnyMethod());
+}); //Added Policy for client app
 
 var app = builder.Build();
 
@@ -26,7 +33,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
+app.UseCors(); //Added for client app
 
 app.UseAuthorization();
 

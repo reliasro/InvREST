@@ -7,9 +7,12 @@ using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
 using Soinsoft.Inventory.Application.Commands.FProduct.Queries;
 using Soinsoft.Inventory.Application.Contracts.DTOs;
 using MediatR;
+using Microsoft.AspNetCore.Cors;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
 {
+    /* cors, metodos adicionales borrar, +/-, reporte existencia */
+    [EnableCors("MyPolicy")]
     [ApiController]
     [Route("/api/v1/[controller]")]
     public class InventoryController : ControllerBase
