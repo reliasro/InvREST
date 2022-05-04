@@ -9,11 +9,5 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Queries
 {
     public class GetProductsQry: IRequest<IEnumerable<ProductDTO>> 
     {
-        public int Id { get; set; }
-
-        public GetProductsQry(){
-            Id=1;
-        }
-
     }
 }

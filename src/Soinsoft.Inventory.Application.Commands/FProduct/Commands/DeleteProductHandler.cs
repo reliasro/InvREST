@@ -20,7 +20,10 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
 
         public async Task<int> Handle(DeleteproductCmd request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var result =  _product.Delete(request.ProductId);
+            await _product.SaveChanges();
+            return request.ProductId;
         }
+
     }
 }

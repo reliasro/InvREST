@@ -4,6 +4,7 @@ using Soinsoft.Inventory.Infra.Persistence.Database;
 namespace Soinsoft.Inventory.Infra.Persistence;
 public class Repository<T> : IRepository<T> where T:class
 {
+    private T _entity;
     private readonly DbContextInventory _context;
     public Repository(DbContextInventory context){
           _context = context;
@@ -12,6 +13,7 @@ public class Repository<T> : IRepository<T> where T:class
     public async Task Create(T entity)
     {
         await _context.Set<T>().AddAsync(entity);
+        _entity=entity;
     }
 
     public async Task Delete(int id)
@@ -42,7 +44,8 @@ public class Repository<T> : IRepository<T> where T:class
 
     public Task Update(T entity)
     {
-         return Task.FromResult(_context.Set<T>().Attach(entity));
+        _entity=entity;
+        return Task.FromResult(_context.Set<T>().Attach(entity));
     }
 
 }

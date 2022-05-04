@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Cors;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
 {
-    /* cors, metodos adicionales borrar, +/-, reporte existencia */
+    /* me faltan los metodos adicionales borrar, editar, +/-, reporte para ordenar */
     [EnableCors("MyPolicy")]
     [ApiController]
     [Route("/api/v1/[controller]")]
@@ -25,9 +25,8 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
             _logger = logger;
             _mediator = mediator;
         }
-
-
-        [HttpGet(Name ="Products")]
+    
+        [HttpGet("Products")]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> GetProducts()
         {
             try
@@ -42,13 +41,63 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
 
         }
 
-        [HttpPost(Name ="NewProduct")]
+        [HttpGet("Product/{id}")]
+        public async Task<ActionResult<ProductDTO>> GetProduct(int id)
+        {
+            try
+            {
+                GetProductQry p = new GetProductQry();
+                p.Id=id;
+                var result= await _mediator.Send(p);
+                return Ok(result);
+            }
+            catch (System.Exception err)
+            {
+                return StatusCode(401,err.Message);                
+            }
+
+        }
+
+        [HttpPost("AddProduct")]
         public async Task<ActionResult> AddProduct([FromBody] AddProductCmd product)
+        {
+            try
+           {
+                var id= await _mediator.Send(product);
+                string uri=$"https://localhost:5000/api/v1/Inventory/Product/{id}";
+                return Created(uri, product); 
+            }
+            catch (System.Exception error)
+            {
+                return StatusCode(401,error.Message);                
+            }
+          
+        }
+
+        [HttpPost("EditProduct")]
+        public async Task<ActionResult> EditProduct([FromBody] EditProductCmd product)
         {
             try
            {
                 var result= await _mediator.Send(product);
                 return Ok(result); 
+            }
+            catch (System.Exception error)
+            {
+                return StatusCode(401,error.Message);                
+            }
+          
+        }
+
+        [HttpPost("DeleteProduct/{id}")]
+        public async Task<ActionResult> DeleteProduct(int id)
+        {
+            try
+           {
+               DeleteproductCmd prd =  new DeleteproductCmd();
+               prd.ProductId=id;
+               var result= await _mediator.Send(prd);
+               return Ok(result); 
             }
             catch (System.Exception error)
             {

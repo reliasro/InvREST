@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using Soinsoft.Inventory.Domain.Model;
 
 namespace Soinsoft.Inventory.Infra.Persistence.Database
@@ -15,5 +17,6 @@ namespace Soinsoft.Inventory.Infra.Persistence.Database
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+
     }
 }

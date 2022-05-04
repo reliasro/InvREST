@@ -24,7 +24,9 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
             Product prod = _mapper.Map<Product>(request);
 
             await _product.Create(prod);
-            return await _product.SaveChanges();
+            await _product.SaveChanges();
+            return prod.Id;
+            
         }
     }
 }
