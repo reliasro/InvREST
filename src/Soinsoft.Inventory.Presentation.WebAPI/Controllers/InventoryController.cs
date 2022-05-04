@@ -79,11 +79,12 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
           
         }
 
-        [HttpPut("EditProduct")]
-        public async Task<ActionResult> EditProduct([FromBody] EditProductCmd product)
+        [HttpPut("EditProduct/{id}")]
+        public async Task<ActionResult> EditProduct([FromBody] EditProductCmd product, int id)
         {
             try
            {
+                product.Id=id;
                 var result= await _mediator.Send(product);
                 return Ok(result); 
             }

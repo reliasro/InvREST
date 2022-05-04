@@ -2,13 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MediatR;
 
-namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
+namespace Soinsoft.Inventory.Presentation.Console
 {
-    public class EditProductCmd: IRequest<int>
+    public class Product
     {
-        public int Id { get; set; }
         public string Description { get; set; }
         public Decimal Price { get; set; }
         public Decimal Cost { get; set; }

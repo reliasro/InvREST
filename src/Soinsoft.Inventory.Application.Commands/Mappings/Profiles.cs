@@ -15,7 +15,7 @@ namespace Soinsoft.Inventory.Application.Commands.Mappings
             
             CreateMap<Product, ProductDTO>();
             CreateMap<AddProductCmd, Product>();
-            CreateMap<EditProductCmd, MessageProcessingHandler>();
+            CreateMap<EditProductCmd, Product>();
         }
     }
 }
