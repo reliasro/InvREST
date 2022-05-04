@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Soinsoft.Inventory.Presentation.Console;
 
-Product prd1 = new Product{
+ProductModel prd1 = new Product{
     Description="Product1 created from Client",
     Maximun=85,
     Minimum=36,
@@ -9,7 +9,7 @@ Product prd1 = new Product{
     Price=2500,
     Unit="Unit"    
 };
-Product prd2 = new Product{
+ProductModel prd2 = new Product{
     Description="Product2 created from Client",
     Maximun=75,
     Minimum=50,

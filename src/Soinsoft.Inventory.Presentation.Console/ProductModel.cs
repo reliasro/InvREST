@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Soinsoft.Inventory.Presentation.Console
 {
-    public class Product
+    public class ProductModel
     {
         public string Description { get; set; }
         public Decimal Price { get; set; }

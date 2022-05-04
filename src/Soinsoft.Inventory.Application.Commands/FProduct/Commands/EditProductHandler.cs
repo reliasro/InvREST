@@ -24,13 +24,15 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
             Product t =await _product.Get(request.Id); //Read product from repo
             
             //Update product
+            /*
             t.Description=request.Description;
             t.Maximun=request.Maximun;
             t.Minimum=request.Minimum;
             t.Price=request.Price;
             t.Cost=request.Cost;
             t.Unit=request.Unit;
-            
+            */
+            _mapper.Map<EditProductCmd,Product>(request,t);
             await _product.Update(t);
             return await _product.SaveChanges();
         }
