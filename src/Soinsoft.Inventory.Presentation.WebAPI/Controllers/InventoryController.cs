@@ -11,7 +11,12 @@ using Microsoft.AspNetCore.Cors;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
 {
-    /* me faltan los metodos adicionales borrar, editar, +/-, reporte para ordenar */
+    //Right now missing:
+    //[httpGet("ForOrder") Ordering Report (at or bellow the minimun) 
+    //[httpPost("PurchaseOrder")] Increase inventory (Purchases)
+    //[httpPost("Sale")] Decrease inventory (Sales)
+    //[httpGet("Existence")] Product existence (current existence)
+
     [EnableCors("MyPolicy")]
     [ApiController]
     [Route("/api/v1/[controller]")]
@@ -74,7 +79,7 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
           
         }
 
-        [HttpPost("EditProduct")]
+        [HttpPut("EditProduct")]
         public async Task<ActionResult> EditProduct([FromBody] EditProductCmd product)
         {
             try
@@ -89,7 +94,7 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
           
         }
 
-        [HttpPost("DeleteProduct/{id}")]
+        [HttpDelete("DeleteProduct/{id}")]
         public async Task<ActionResult> DeleteProduct(int id)
         {
             try
