@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Presenta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Infra.Persistence", "Soinsoft.Inventory.Infra.Persistence\Soinsoft.Inventory.Infra.Persistence.csproj", "{1A47565A-C6D7-40F8-9FA8-518C289B94C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Presentation.ConsoleClient", "Soinsoft.Inventory.Presentation.ConsoleClient\Soinsoft.Inventory.Presentation.ConsoleClient.csproj", "{6EB9A6AD-3815-46BB-99FE-847A657DE9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{1A47565A-C6D7-40F8-9FA8-518C289B94C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A47565A-C6D7-40F8-9FA8-518C289B94C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A47565A-C6D7-40F8-9FA8-518C289B94C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB9A6AD-3815-46BB-99FE-847A657DE9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB9A6AD-3815-46BB-99FE-847A657DE9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB9A6AD-3815-46BB-99FE-847A657DE9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB9A6AD-3815-46BB-99FE-847A657DE9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
