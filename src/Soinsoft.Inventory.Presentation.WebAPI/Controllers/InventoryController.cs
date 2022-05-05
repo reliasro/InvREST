@@ -145,6 +145,21 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
           
         }
 
+        [HttpGet("Stock")]
+        public async Task<ActionResult<IEnumerable<StockDTO>>> Stock()
+        {
+            try
+            {
+                var result= await _mediator.Send(new GetCurrentStockQry());
+                return Ok(result);
+            }
+            catch (System.Exception err)
+            {
+                return StatusCode(401,err.Message);                
+            }
+
+        }
+
 
     }
 }

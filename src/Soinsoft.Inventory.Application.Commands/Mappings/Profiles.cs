@@ -16,6 +16,7 @@ namespace Soinsoft.Inventory.Application.Commands.Mappings
         public Profiles(){
             
             CreateMap<Product, ProductDTO>();
+            CreateMap<Product, StockDTO>();
             CreateMap<AddProductCmd, Product>();
             CreateMap<EditProductCmd, Product>();
             CreateMap<TransactionSaved,UpdateExistenceCmd>();
