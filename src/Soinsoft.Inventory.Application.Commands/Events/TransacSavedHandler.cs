@@ -7,15 +7,15 @@ using Soinsoft.Inventory.Application.Commands.FProduct.Commands;
 
 namespace Soinsoft.Inventory.Application.Commands.Events
 {
-    public class TransaccSavedHandler : INotificationHandler<TransacctionSaved>
+    public class TransacSavedHandler : INotificationHandler<TransactionSaved>
     {
         private readonly IMediator _mediator;
-        public TransaccSavedHandler(IMediator mediator){
+        public TransacSavedHandler(IMediator mediator){
             _mediator = mediator;
 
         }
 
-        public Task Handle(TransacctionSaved notification, CancellationToken cancellationToken)
+        public Task Handle(TransactionSaved notification, CancellationToken cancellationToken)
         {
            
            //This event trigger an inventory update

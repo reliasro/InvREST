@@ -22,7 +22,7 @@ namespace Soinsoft.Inventory.Application.Commands.FTransacctions.Commands
         public async Task<int> Handle(PurchaseOrderCmd request, CancellationToken cancellationToken)
         {
             //Events notification
-            TransacctionSaved transa= new TransacctionSaved();
+            TransactionSaved transa= new TransactionSaved();
             transa.ProductId=request.ProductID;
             transa.ValueToAdjust=request.Value;
 
@@ -41,7 +41,7 @@ namespace Soinsoft.Inventory.Application.Commands.FTransacctions.Commands
             await _repoTrans.Create(tr);
             await _repoTrans.SaveChanges();
 
-            //Publish the event
+            //Publish the purchase event
             await _mediator.Publish(transa);
             return 1;
 

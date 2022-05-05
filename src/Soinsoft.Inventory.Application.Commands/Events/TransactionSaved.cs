@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Soinsoft.Inventory.Application.Commands.Events
 {
-    public class TransacctionSaved:INotification
+    public class TransactionSaved:INotification
     {
         public int ProductId { get; set; }
         public int ValueToAdjust { get; set; }
