@@ -22,6 +22,7 @@ namespace Soinsoft.Inventory.Application.Commands.Events
            UpdateExistenceCmd upe = new UpdateExistenceCmd();
            upe.ProductId=notification.ProductId;
            upe.ValueToAdjust=notification.ValueToAdjust;
+           upe.TransactionType=notification.TransactionType;
            return _mediator.Send(upe);
 
         }

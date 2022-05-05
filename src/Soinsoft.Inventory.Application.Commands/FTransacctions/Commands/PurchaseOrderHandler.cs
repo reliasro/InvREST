@@ -21,7 +21,7 @@ namespace Soinsoft.Inventory.Application.Commands.FTransacctions.Commands
 
         public async Task<int> Handle(PurchaseOrderCmd request, CancellationToken cancellationToken)
         {
-            //Events notification
+            //Event notification
             TransactionSaved transa= new TransactionSaved();
             transa.ProductId=request.ProductID;
             transa.ValueToAdjust=request.Value;

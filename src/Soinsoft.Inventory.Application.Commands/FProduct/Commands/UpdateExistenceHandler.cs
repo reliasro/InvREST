@@ -19,7 +19,12 @@ namespace Soinsoft.Inventory.Application.Commands.FProduct.Commands
         public async Task<int> Handle(UpdateExistenceCmd request, CancellationToken cancellationToken)
         {
              var prd= await _product.Get(request.ProductId);
-             prd.Existence+=request.ValueToAdjust;
+             if (request.TransactionType==TransactionType.Purchase){
+                 prd.Existence+=request.ValueToAdjust;
+             }
+             if (request.TransactionType==TransactionType.Sale){
+                 prd.Existence-=request.ValueToAdjust;
+             }
              var res= await _product.SaveChanges();
              return res;
         }

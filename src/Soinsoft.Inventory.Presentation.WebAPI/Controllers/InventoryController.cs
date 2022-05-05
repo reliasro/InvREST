@@ -119,8 +119,24 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
             try
            {
                 var id= await _mediator.Send(purchase);
-                //string uri=$"https://localhost:5000/api/v1/Inventory/Product/{id}";
+                //string uri=$"https://localhost:5000/api/v1/Inventory/Purchase/{id}";
                 return Ok(purchase); 
+            }
+            catch (System.Exception error)
+            {
+                return StatusCode(401,error.Message);                
+            }
+          
+        }
+
+        [HttpPost("Sale")]
+        public async Task<ActionResult> Sale([FromBody] SaleCmd sale)
+        {
+            try
+           {
+                var id= await _mediator.Send(sale);
+                //string uri=$"https://localhost:5000/api/v1/Inventory/Sale/{id}";
+                return Ok(sale); 
             }
             catch (System.Exception error)
             {
