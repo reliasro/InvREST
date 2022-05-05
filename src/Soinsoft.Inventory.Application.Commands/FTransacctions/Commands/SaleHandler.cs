@@ -25,6 +25,7 @@ namespace Soinsoft.Inventory.Application.Commands.FTransacctions.Commands
             TransactionSaved transa= new TransactionSaved();
             transa.ProductId=request.ProductID;
             transa.ValueToAdjust=request.Value;
+            transa.TransactionType=request.TransacctionType;
 
             Transaction tr = new Transaction();
             
