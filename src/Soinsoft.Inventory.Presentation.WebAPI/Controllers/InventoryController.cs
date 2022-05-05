@@ -8,6 +8,7 @@ using Soinsoft.Inventory.Application.Commands.FProduct.Queries;
 using Soinsoft.Inventory.Application.Contracts.DTOs;
 using MediatR;
 using Microsoft.AspNetCore.Cors;
+using Soinsoft.Inventory.Application.Commands.FTransacctions.Commands;
 
 namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
 {
@@ -104,6 +105,22 @@ namespace Soinsoft.Inventory.Presentation.WebAPI.Controllers
                prd.ProductId=id;
                var result= await _mediator.Send(prd);
                return Ok(result); 
+            }
+            catch (System.Exception error)
+            {
+                return StatusCode(401,error.Message);                
+            }
+          
+        }
+
+        [HttpPost("Purchase")]
+        public async Task<ActionResult> Purchase([FromBody] PurchaseOrderCmd purchase)
+        {
+            try
+           {
+                var id= await _mediator.Send(purchase);
+                //string uri=$"https://localhost:5000/api/v1/Inventory/Product/{id}";
+                return Ok(purchase); 
             }
             catch (System.Exception error)
             {

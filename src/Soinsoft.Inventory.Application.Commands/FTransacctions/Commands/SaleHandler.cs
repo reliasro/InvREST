@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Soinsoft.Inventory.Application.Commands.FTransacctions.Commands
 {
-    public class DecreaseInventoryHandler
+    public class SaleHandler
     {
         
     }
