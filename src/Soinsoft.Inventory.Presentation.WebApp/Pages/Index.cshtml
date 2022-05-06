@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>@Model.Greetings</h2>
+    @{
+        for(int i=0;i<=5; i++){
+          <p>This is the text number @i</p>   
+        }
+
+    }
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <button>Close this page as soon as posible</button>
+
+</div>

@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Presenta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Application.Contracts", "Soinsoft.Inventory.Application.Contracts\Soinsoft.Inventory.Application.Contracts.csproj", "{B52AD468-D454-4620-97EC-7812003C68C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soinsoft.Inventory.Presentation.WebApp", "Soinsoft.Inventory.Presentation.WebApp\Soinsoft.Inventory.Presentation.WebApp.csproj", "{F5AE3B49-6414-4AAB-B9EC-CE42B167CE50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{B52AD468-D454-4620-97EC-7812003C68C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B52AD468-D454-4620-97EC-7812003C68C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B52AD468-D454-4620-97EC-7812003C68C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AE3B49-6414-4AAB-B9EC-CE42B167CE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AE3B49-6414-4AAB-B9EC-CE42B167CE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AE3B49-6414-4AAB-B9EC-CE42B167CE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AE3B49-6414-4AAB-B9EC-CE42B167CE50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
