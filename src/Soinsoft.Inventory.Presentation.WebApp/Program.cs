@@ -1,7 +1,10 @@
+using Soinsoft.Inventory.Presentation.WebApp.WebApiClient;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<IRestClient, RestClient>();
 
 var app = builder.Build();
 

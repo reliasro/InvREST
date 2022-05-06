@@ -12,20 +12,29 @@ namespace Soinsoft.Inventory.Presentation.WebApp.Pages.Customer
     public class Index : PageModel
     {
         private readonly ILogger<Index> _logger;
+        private readonly IRestClient _restClient;
 
-        public Index(ILogger<Index> logger)
+        public Index(ILogger<Index> logger, IRestClient restClient)
         {
+            _restClient = restClient;
             _logger = logger;
         }
 
         public ProductModel Product { get; set; }
-        public void OnGet()
+        public IEnumerable<ProductModel> ProductList { get; set; }
+
+        public async Task OnGet()
         {
             try
             {
-                RestClient client= new RestClient();
-                var res= client.GetProduct(1);
-                this.Product= res.Result;
+
+                var prd= await _restClient.GetProduct(1);
+                prd.Description="I Have Edited From Razor Page 4";
+                await _restClient.UpdateProduct(prd);
+
+                //Read product list 
+                var res= await _restClient.GetProductList();
+                this.ProductList= res;
             }
             catch (System.Exception err)
             {
