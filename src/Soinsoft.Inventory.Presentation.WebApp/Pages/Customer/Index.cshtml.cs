@@ -27,10 +27,13 @@ namespace Soinsoft.Inventory.Presentation.WebApp.Pages.Customer
         {
             try
             {
-
+                //Editing   
                 var prd= await _restClient.GetProduct(1);
-                prd.Description="I Have Edited From Razor Page 4";
+                prd.Description="I Have Edited From Razor Page Once again";
                 await _restClient.UpdateProduct(prd);
+
+                //Delete   
+                int delPrd= await _restClient.DeleteProduct(10);
 
                 //Read product list 
                 var res= await _restClient.GetProductList();

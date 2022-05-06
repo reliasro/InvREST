@@ -2,8 +2,10 @@ using System.Net.Http.Headers;
 
 namespace Soinsoft.Inventory.Presentation.WebApp.WebApiClient
 {
+
     public interface IRestClient
     {
+        Task<int> DeleteProduct(int id);
         Task<ProductModel> GetProduct(int id);
         Task<IEnumerable<ProductModel>> GetProductList();
         Task<int> UpdateProduct(ProductModel prd);
@@ -50,6 +52,21 @@ namespace Soinsoft.Inventory.Presentation.WebApp.WebApiClient
                 throw new Exception(err.Message, err);
             }
         }
+
+        public async Task<int> DeleteProduct(int id)
+        {
+            HttpResponseMessage resp = await _Client.DeleteAsync($"DeleteProduct/{id}");
+            resp.EnsureSuccessStatusCode(); //Return 200-299 code
+            try
+            {
+                return 1;
+            }
+            catch (System.Exception err)
+            {
+                throw new Exception(err.Message, err);
+            }
+        }
+
 
         public async Task<IEnumerable<ProductModel>> GetProductList()
         {
