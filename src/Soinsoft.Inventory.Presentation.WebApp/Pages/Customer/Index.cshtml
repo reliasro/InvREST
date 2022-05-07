@@ -1,11 +1,36 @@
 @page
 @model Soinsoft.Inventory.Presentation.WebApp.Pages.Customer.Index
 @{
-    ViewData["Title"] = "Hey!!! Welcome Brot";
+    ViewData["Title"] = "Inventory List";
 }
 
 <h1>@ViewData["Title"]</h1>
+<P>Welcome to Inventory Module</P>
+<br>
 
-<div>
-    
-</div>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Description</th>
+      <th scope="col">Price</th>
+      <th scope="col">Cost</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+      @{
+          foreach(var prod in @Model.ProductList){
+            <tr>
+            <th scope="row">@prod.Id</th>
+            <td>@prod.Description</td>
+            <td>@prod.Price.ToString("C") USD</td>
+            <td>@prod.Cost.ToString("C") USD</td>
+            <td><a asp-area="" asp-page="/Customer/Detail" asp-route-id="@prod.Id">Edit</a></td>
+            <td><a asp-area="" asp-page="/Customer/Delete" asp-route-id="@prod.Id">Delete</a></td>
+            </tr>
+          } 
+      }
+  </tbody>
+</table>

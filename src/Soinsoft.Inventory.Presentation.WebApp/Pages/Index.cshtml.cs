@@ -14,8 +14,8 @@ public class IndexModel : PageModel
         Greetings="Hey Welcome to this World of Razor Pages";
     }
 
-    public void OnGet()
+    public IActionResult OnGet()
     {
-
+       return RedirectToPage("/Customer/Index");
     }
 }

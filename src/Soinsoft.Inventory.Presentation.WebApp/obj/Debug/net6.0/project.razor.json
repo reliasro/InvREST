@@ -16313,6 +16313,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebApp\\Pages\\Customer\\Delete.cshtml",
+      "TargetPath": "Pages\\Customer\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebApp\\Pages\\Customer\\Index.cshtml",
       "TargetPath": "Pages\\Customer\\Index.cshtml",
       "FileKind": "mvc"

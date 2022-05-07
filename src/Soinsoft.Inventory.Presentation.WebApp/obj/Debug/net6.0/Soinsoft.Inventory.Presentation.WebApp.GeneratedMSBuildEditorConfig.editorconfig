@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

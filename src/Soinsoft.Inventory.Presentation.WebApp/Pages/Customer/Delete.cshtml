@@ -1,0 +1,14 @@
+@page "/Customer/Delete/{id}"
+@model Soinsoft.Inventory.Presentation.WebApp.Pages.Customer.Delete
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr>
+<form method="post">
+   <h2>Are you sure you want to delete?</h2>
+    <input type="submit">
+</form>
+<a asp-area="" asp-page="/Customer/Index" class="btn btn-default">Return To Customers List</a>
+
