@@ -16303,6 +16303,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebApp\\Pages\\Customer\\_PaymentInfo.cshtml",
+      "TargetPath": "Pages\\Customer\\_PaymentInfo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\Soinsoft\\app-inventory\\src\\Soinsoft.Inventory.Presentation.WebApp\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

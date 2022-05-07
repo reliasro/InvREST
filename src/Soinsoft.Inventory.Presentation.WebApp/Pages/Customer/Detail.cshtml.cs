@@ -20,10 +20,12 @@ namespace Soinsoft.Inventory.Presentation.WebApp.Pages.Customer
         public string Description { get; set; }
         [BindProperty]
         public Decimal Price { get; set; }
+        public Payment Payment { get; set; }
         public Detail(ILogger<Detail> logger, IRestClient restClient)
         {
             _restClient = restClient;
             _logger = logger;
+            Payment= new Payment();
         }
 
         public async Task OnGet()
