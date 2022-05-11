@@ -1,4 +1,4 @@
-# Scalable Inventory Web API + Client Applications (SInv)
+# Scalable Inventory Web API + Client Applications
 Inventory RESTful web service for handling products and transactions.
 
 This is intentended to be used as starting point for developing your own web services.
