@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Soinsoft.Inventory.Presentation.WebApp
 build_property.RootNamespace = Soinsoft.Inventory.Presentation.WebApp
-build_property.ProjectDir = F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebApp\
+build_property.ProjectDir = f:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = F:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebApp
+build_property.MSBuildProjectDirectory = f:\Soinsoft\app-inventory\src\Soinsoft.Inventory.Presentation.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Delete.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Detail.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Index.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/_PaymentInfo.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Customer/_PaymentInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJcX1BheW1lbnRJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Error.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Index.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Privacy.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/_ViewImports.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/_ViewStart.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Shared/_Layout.cshtml]
+[f:/Soinsoft/app-inventory/src/Soinsoft.Inventory.Presentation.WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0qsk54ot2u
